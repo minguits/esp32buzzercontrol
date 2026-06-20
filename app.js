@@ -39,13 +39,13 @@ const firebaseConfig = {
   const gpioButtons = {
     gpio1: document.getElementById("gpio1Btn"),
     gpio2: document.getElementById("gpio2Btn"),
-    gpio3: document.getElementById("gpio3Btn")
+    
   };
 
   const gpioLabels = {
     gpio1: document.getElementById("gpio1Status"),
     gpio2: document.getElementById("gpio2Status"),
-    gpio3: document.getElementById("gpio3Status")
+    
   };
 
   // Login
