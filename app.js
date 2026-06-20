@@ -82,7 +82,7 @@ const firebaseConfig = {
 
   // Listen to DB
   function startListeners() {
-    ["gpio1", "gpio2", "gpio3"].forEach((key) => {
+    ["gpio1", "gpio2"].forEach((key) => {
       onValue(ref(db, "/" + key), (snapshot) => {
         let value = snapshot.val() ? 1 : 0;
         updateUI(key, value);
